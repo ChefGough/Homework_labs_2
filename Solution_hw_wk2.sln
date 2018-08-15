@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyRate_optional_perams", "DailyRate\DailyRate_optional_perams.csproj", "{64974C78-1B36-4C85-B1EA-873CEA8D4E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyRate", "DailyRate_regular\DailyRate.csproj", "{7078E4B6-4D29-4C81-9B45-954C08B7F10A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64974C78-1B36-4C85-B1EA-873CEA8D4E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64974C78-1B36-4C85-B1EA-873CEA8D4E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64974C78-1B36-4C85-B1EA-873CEA8D4E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64974C78-1B36-4C85-B1EA-873CEA8D4E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7078E4B6-4D29-4C81-9B45-954C08B7F10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7078E4B6-4D29-4C81-9B45-954C08B7F10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7078E4B6-4D29-4C81-9B45-954C08B7F10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7078E4B6-4D29-4C81-9B45-954C08B7F10A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
